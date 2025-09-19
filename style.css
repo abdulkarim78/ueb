@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    background-image: url('./assets/BG.png');
+    /* background-repeat: no-repeat; */
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 4rem;
+}
+.logo{
+    width: 200px;
+    height: auto;}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70vh;
+}
+
+.hero-content{
+    margin-left: 2.5rem;
+}
+.hero-heading{
+    line-height: rem;
+}
+
+.hero-heading > h1{
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+}
+
+.hero-heading > h2{
+    font-size: 30px;
+    font-weight: 200;
+    color: #91B300;
+}
+
+.hero-paragraph > h3{
+    word-spacing: 0.2rem;
+    font-family:"Roboto", sans-serif ;
+    font-size: 25px;
+    font-weight: 300;
+    color: #F2F2F2;
+    margin-top: 2.5rem;
+    line-height: 1.2;
+}
+
+.hero .cta-btn {
+  background: #c3ff4d;
+  color: #000;
+  font-weight: 600;
+  padding: 14px 30px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  text-decoration: none;
+  display: inline-block;
+}
