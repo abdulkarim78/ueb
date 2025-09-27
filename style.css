@@ -39,11 +39,11 @@ body {
     gap: 5rem;
     font-size: 20px;
     font-weight: 500;
-    color: white;
 }
 
 a{
     
+    color: white;
     text-decoration: none;
 }
 
