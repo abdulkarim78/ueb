@@ -799,7 +799,10 @@ footer h2 {
         margin-left: 20px;
         gap: 8rem;
     }
-
+    .menu ul {
+        font-size: 16px;
+        gap: 5rem;
+    }
     .hero-content {
         margin-top: 0.2rem;
         flex-direction: column-reverse;
