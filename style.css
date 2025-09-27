@@ -1,0 +1,1088 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    background-image: url("./assets/BG\ Nextpage.png");
+    background-size: cover;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Header Started */
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+    gap: 36rem;
+    margin-top: 2rem;
+}
+
+.logo {
+    width: 220px;
+    height: auto;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    gap: 5rem;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+/* Header Ended */
+
+
+/* Hero Start */
+.hero-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    margin-top: -3rem;
+    margin-left: 10%;
+}
+
+.hero-heading {
+    width: 537px;
+    margin-top: 7rem;
+}
+
+.hero-heading h1 {
+    font-size: 40px;
+}
+
+.hero-heading h2 {
+    letter-spacing: 2px;
+    font-size: 25px;
+    font-weight: 200;
+    color: #deff2b;
+    margin-top: -0.2rem;
+}
+
+.hero-heading h3 {
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 3rem;
+    color: #808080;
+}
+
+.hero-img img {
+    width: 500px;
+    height: auto;
+}
+
+.hero-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-btn {
+    background: #deff2b;
+    color: #000;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 15px 30px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    text-align: center;
+    text-decoration: none;
+    filter: drop-shadow(0 0 10px #c3ff4d);
+}
+
+/* Hero Ended */
+
+
+/* Service Start */
+.services>h1 {
+    font-size: 26px;
+    margin-top: 10rem;
+    text-align: center;
+    color: white;
+}
+
+.services-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    gap: 2rem;
+    /* equal spacing */
+}
+
+.service1-parent,
+.service3-parent {
+    width: 310px;
+    height: 320px;
+    border-radius: 12px;
+    background: linear-gradient(180deg,
+            #0a0a0a,
+            #cbea25,
+            900%,
+            #0a0a0a);
+    border: 1px solid #1a1a1a;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2rem 1.5rem;
+    text-align: center;
+    color: white;
+}
+
+.service2 {
+    height: 372px;
+}
+
+.service1,
+.service3 {
+    padding-top: 0.8rem;
+}
+
+.service2-parent {
+    width: 290px;
+    height: 320px;
+    border-radius: 12px;
+    background: linear-gradient(180deg,
+            #0a0a0a,
+            #cbea25,
+            900%,
+            #0a0a0a);
+    border: 1px solid #1a1a1a;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2rem 1.5rem;
+    text-align: center;
+    color: white;
+}
+
+.service1 img,
+.service3 img {
+    width: 70px;
+    margin-bottom: 1.2rem;
+}
+
+.service1>h2,
+.service2>h2,
+.service3>h2 {
+    margin-top: 0.5rem;
+    font-size: 16px;
+    font-weight: normal;
+    color: #d9d9d9;
+}
+
+.service1>p,
+.service2>p,
+.service3>p {
+    margin: 1.5rem 0;
+    font-size: 12px;
+    font-weight: lighter;
+    color: #bfbfbf;
+}
+
+.service1>h2:last-of-type,
+.service2>h2:last-of-type,
+.service3>h2:last-of-type {
+    margin-top: auto;
+    font-weight: normal;
+    color: #d9d9d9;
+}
+
+.line img {
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+    margin-left: 8rem;
+    width: 80%;
+}
+
+/* services Ended */
+
+/* covered started */
+.covered-content h1 {
+    font-size: 26px;
+    font-weight: 300;
+    text-align: center;
+    color: white;
+}
+
+.covered-content span {
+    font-weight: 600;
+    color: #cbea25;
+}
+
+.covered-content h2 {
+    font-size: 16px;
+    font-weight: lighter;
+    text-align: center;
+    color: #9b9b9b;
+}
+
+.covered {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.cover {
+    margin-top: 4rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.cover img {
+    width: 60px;
+}
+
+.cover h2 {
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+/* covered ended */
+
+/* mission and vision started */
+.mission {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 10.5rem;
+    width: 74%;
+    height: 185px;
+    background: linear-gradient(344deg, #cbea25, black, transparent);
+    border: 1px solid #bfbfbf;
+    border-radius: 10px;
+}
+
+.vision {
+    margin-left: 10.5rem;
+    width: 74%;
+    height: 185px;
+    background: linear-gradient(19deg, #cbea25, black, transparent);
+    border: 1px solid #bfbfbf;
+    border-radius: 10px;
+}
+
+.mission-content,
+.vision-content {
+    padding-top: 1rem;
+    padding-left: 3rem;
+    padding-right: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.mission-content h1,
+.vision-content h1 {
+    font-size: 26px;
+    color: white;
+}
+
+.mission-content span,
+.vision-content span {
+    color: #cbea25;
+}
+
+.mission-line img,
+.vision-line img {
+    margin-left: 3rem;
+    width: 88%;
+}
+
+.mission h2,
+.vision h2 {
+    font-size: 18px;
+    font-weight: lighter;
+    color: #eaeaea;
+    padding: 0 2rem 4rem 3rem;
+    line-height: 1.6;
+}
+
+/* misssion and vision ended */
+
+/* People Start */
+.people h1 {
+    font-size: 26px;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    color: white;
+}
+
+.people span {
+    color: #deff2b;
+}
+
+.rectangle {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 50%;
+    margin: 20px auto;
+    border: 1px solid #d4ff00;
+    /* neon yellow border */
+    border-radius: 10px;
+    background: linear-gradient(180deg,
+            #1e1e1e,
+            #cbea25,
+            900%,
+            #1e1e1e);
+    /* dark gradient */
+}
+
+.personImg img {
+    width: 170px;
+}
+
+.personDetails {
+    margin-top: 2rem;
+    color: white;
+}
+
+.personDetails h2 {
+    font-size: 26px;
+    margin: 0;
+}
+
+.personDetails h3 {
+    font-weight: lighter;
+    margin-top: 0;
+}
+
+.personDetails ul {
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+.personDetails ul li {
+    margin-bottom: 0.5rem;
+    color: #bfbfbf;
+}
+
+.personDetails ul li::marker {
+    color: #deff2b;
+}
+
+
+.icon2 {
+    position: relative;
+    bottom: 4rem;
+    left: 2.5rem;
+}
+
+.icon1 {
+    position: relative;
+    bottom: 3rem;
+    left: 1.5rem;
+
+}
+
+.icon3 {
+    position: relative;
+    bottom: 3rem;
+    left: 1.5rem;
+}
+
+/* People Ended */
+
+/* contact start */
+.contact h1 {
+    font-size: 26px;
+    text-align: center;
+    color: #deff2b;
+}
+
+.contact h2 {
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.contact-form {
+    margin: auto;
+    background: #222;
+    /* dark background */
+    padding-top: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    width: 55%;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-form form {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.contact-form label {
+    font-size: 20px;
+    color: #fff;
+}
+
+.contact-form input,
+.contact-form select {
+    padding: 10px 64px;
+    border: none;
+    border-radius: 4px;
+    background: #444;
+    color: #fff;
+}
+
+.contact-form button {
+    margin-right: 1rem;
+    margin-top: 2rem;
+    margin-left: auto;
+    background: #e8ff00;
+    /* neon yellow/green */
+    color: #000;
+    border: none;
+    padding: 20px 60px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+}
+
+.contact-form button:hover {
+    background: #d6f000;
+}
+
+.contact-form .privacy {
+    font-size: 15px;
+    color: #aaa;
+    margin: 0;
+    flex-basis: 100%;
+    text-align: right;
+}
+
+.contact-line img {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    margin-left: 10rem;
+    width: 80%;
+}
+
+footer h1 {
+    line-height: 2.2rem;
+    text-align: center;
+    color: #d6d6d6;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.social-link img {
+    width: 30px;
+    height: auto;
+    filter: brightness(0) invert(1);
+    cursor: pointer;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-logo img {
+    width: 100px;
+    height: auto;
+    filter: brightness(0) invert(1);
+}
+
+footer h2 {
+    margin-top: 1.2rem;
+    font-size: 18px;
+    text-align: center;
+    color: #d6d6d6;
+}
+
+.term-and-condition {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16rem;
+    text-decoration: underline;
+    text-decoration-color: #d6d6d6;
+}
+
+@media (min-width:320px) and (max-width:369px){
+    
+}
+
+
+
+@media (min-width:370px) and (max-width:424px) {
+    .line img {
+        margin-left: 2.5rem;
+    }
+    
+    .header {
+        gap: 2rem !important;
+    }
+
+    .logo {
+        width: 160px;
+    }
+
+    .menu ul {
+        font-size: 10px;
+        gap: 2rem;
+    }
+
+    .hero-content {
+        flex-direction: column-reverse;
+        margin-top: 2rem;
+    }
+
+    .hero-heading {
+        width: 344px;
+        margin-top: 3rem;
+    }
+
+    .hero-img img {
+        width: 250px;
+    }
+
+    .hero-btn {
+        width: 100%;
+    }
+
+    .services>h1 {
+        width: 100%;
+    }
+
+    .services-card {
+        flex-direction: column !important;
+    }
+
+    .covered-content h1 {
+        width: 100%;
+    }
+
+    .covered-content h2 {
+        width: 100%;
+    }
+
+    .covered {
+        margin-left: 5rem;
+        flex-direction: column;
+    }
+
+    .mission,
+    .vision {
+        margin-left: 3.5rem;
+        height: 360px;
+    }
+    .mission-line img, .vision-line img {
+        margin-left: 1rem;
+        width: 88%;}
+
+    .people h1 {
+        width: 100%;
+    }
+
+    .rectangle {
+        width: 70%;
+        height: 550px;
+        flex-direction: column;
+    }
+
+    .icon1,
+    .icon2 {
+        position: relative;
+        bottom: 10px;
+        left: 0;
+
+    }
+
+    .icon3 {
+        position: relative;
+        bottom: 2rem;
+        left: 0rem;
+    }
+
+    .contact h1 {
+        width: 100%;
+    }
+
+    .contact-form {
+        width: 85%;
+    }
+
+    .contact h2 {
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    .term-and-condition {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .contact-form button {
+
+        padding: 15px 40px;
+    }
+    .contact-line img {
+        margin-left: 2.5rem;
+    }
+}
+
+@media (min-width:425px) and (max-width: 500px) {
+    .header {
+        margin-left: 20px;
+        gap: 8rem;
+    }
+
+    .hero-content {
+        margin-top: 0.2rem;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .hero-heading {
+        margin-top: 2rem;
+        margin-left: 200px;
+        margin-right: 20px;
+    }
+
+    .hero-heading h3 {
+        margin-right: 1rem;
+    }
+
+    .hero-img img {
+        margin-left: 120px;
+    }
+
+    .hero-btn {
+        margin-top: 1rem;
+        margin-left: 12rem;
+    }
+
+    .services>h1 {
+        margin-left: 10rem;
+    }
+
+    .services-card {
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3rem;
+        gap: 2rem;
+        margin-left: 9rem;
+    }
+
+    .line img {
+        margin-top: 7rem;
+        margin-bottom: 2rem;
+        margin-left: 5rem;
+        width: 100%;
+    }
+
+    .covered-content h1 {
+        margin-left: 11rem;
+    }
+
+    .covered-content h2 {
+        margin-left: 11rem;
+        font-size: large;
+    }
+
+    .covered {
+        margin-left: 11rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0;
+    }
+
+    .mission,
+    .vision {
+        margin-left: 9rem;
+        height: auto;
+    }
+
+    .mission-content,
+    .vision-content {
+        justify-content: center;
+    }
+
+    .mission>h2 {
+        text-align: center;
+    }
+
+    .mission-line img,
+    .vision-line img {
+        margin-left: 1rem;
+        width: 85%;
+    }
+
+    .people h1 {
+        margin-left: 11rem;
+    }
+
+    .rectangle {
+        width: 70%;
+        height: 550px;
+        margin: 21px 10rem;
+        flex-direction: column;
+    }
+
+    .icon1,
+    .icon2 {
+        position: none;
+        bottom: 0;
+        left: 0;
+
+    }
+
+    .icon3 {
+        position: relative;
+        bottom: 2rem;
+        left: 0rem;
+    }
+
+    .contact h1 {
+        margin-left: 11rem;
+    }
+
+    .contact h2 {
+        font-size: larger;
+        margin-left: 11rem;
+    }
+
+    .contact-form {
+        width: 100%;
+        margin-left: 6rem;
+    }
+
+    .contact-form button {
+        padding: 14px 22px;
+    }
+
+    .contact-line img {
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+        margin-left: 6rem;
+        width: 100%;
+    }
+
+    footer {
+        margin-left: 11rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .term-and-condition {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 768px) {
+    .header {
+        gap: 5rem;
+    }
+
+    .logo {
+        width: 180px;
+    }
+
+    .menu ul {
+        gap: 3rem;
+        font-size: 16px;
+    }
+
+    .hero-heading h1 {
+        font-size: 26px;
+    }
+
+    .hero-heading h2 {
+        font-size: 16px;
+        margin-top: -0.2rem;
+    }
+
+    .hero-heading h3 {
+        font-size: 14px;
+
+    }
+
+    .hero-img img {
+        width: 370px;
+    }
+
+    .cta-btn {
+        font-size: 16px;
+        padding: 12px 30px;
+    }
+
+    .services h1 {
+        font-size: 20px;
+    }
+
+    .services-card {
+        flex-wrap: wrap;
+    }
+
+    .service1-parent,
+    .service3-parent {
+        width: 220px;
+    }
+
+    .service2-parent {
+        width: 220px;
+    }
+
+    .line img {
+        margin-left: 5rem;
+    }
+
+    .covered-content h1 {
+        font-size: 20px;
+    }
+
+    .covered-content h2 {
+        font-size: 14px;
+    }
+
+    .cover img {
+        width: 50px;
+    }
+
+    .cover h2 {
+        font-size: 14px;
+    }
+
+    .mission,
+    .vision {
+        margin-left: 12rem;
+        width: 50%;
+        height: 220px;
+    }
+
+    .mission-line img,
+    .vision-line img {
+        margin-left: 1.5rem;
+    }
+
+    .mission h2,
+    .vision h2 {
+        font-size: 16px;
+    }
+
+    .people>h1 {
+        font-size: 1rem;
+        margin-bottom: 3rem;
+    }
+
+    .rectangle {
+        width: 70%;
+        padding-left: 1rem;
+    }
+
+    .personDetails h2 {
+        font-size: 16px;
+    }
+
+    .icon1 img,
+    .icon2 img,
+    .icon3 img {
+        width: 45px;
+    }
+
+    .icon2 {
+        left: 1.5rem;
+    }
+
+    .contact h1 {
+        font-size: 20px;
+    }
+
+    .contact h2 {
+        font-size: 16px;
+    }
+
+    .contact-line img {
+        margin-left: 5rem;
+    }
+
+    .term-and-condition {
+        gap: 2rem;
+    }
+}
+
+/* Desktop Screen 900 - 1024 */
+@media (min-width: 900px) and (max-width: 1024px) {
+    .header {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        align-items: center;
+        gap: 15rem;
+        margin-top: 2rem;
+    }
+
+    .menu ul {
+        list-style: none;
+        display: flex;
+        gap: 5rem;
+        font-size: 16px;
+        font-weight: 500;
+        color: white;
+    }
+
+    .hero-content {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        color: white;
+        margin-left: 10%;
+    }
+
+    .hero-heading h1 {
+        font-size: 32px;
+    }
+
+    .hero-heading h2 {
+        letter-spacing: 2px;
+        font-size: 18px;
+        font-weight: 200;
+        color: #deff2b;
+        margin-top: -0.2rem;
+    }
+
+    .hero-heading h3 {
+        font-size: 16px;
+    }
+
+    .hero-img img {
+        width: 410px;
+        height: auto;
+    }
+
+    .services>h1 {
+        font-size: 22px;
+    }
+
+    .services-card {
+        flex-wrap: wrap;
+    }
+
+    .service1-parent,
+    .service3-parent {
+        width: 200px;
+
+        height: 355px;
+    }
+
+    .service2-parent {
+        width: 210px;
+        height: 355px;
+    }
+
+    .service1 h1,
+    .service2 h1,
+    .service3 h1 {
+        font-size: 24px;
+    }
+
+    .line img {
+        width: 75%;
+    }
+
+    .covered-content h1 {
+        font-size: 22px;
+    }
+
+    .cover h2 {
+        font-size: 16px;
+    }
+
+    .mission {
+        margin-left: 10rem;
+        height: 185px;
+        width: 70%;
+    }
+
+    .vision {
+        margin-left: 10rem;
+        height: 185px;
+        width: 70%;
+    }
+
+    .mission-content {
+        padding-top: 1rem;
+    }
+
+    .people h1 {
+        font-size: 22px;
+    }
+
+    .rectangle {
+        width: 61%;
+    }
+
+    .personDetails h2 {
+        font-size: 22px;
+    }
+
+    .icon2 {
+        left: 1.5rem;
+    }
+
+    .contact h1 {
+        font-size: 22px;
+    }
+
+    .contact-form {
+        width: 74%;
+    }
+
+    .term-and-condition {
+        gap: 11rem;
+    }
+
+
+}
