@@ -543,7 +543,7 @@ footer h2 {
 
 @media (min-width:320px) and (max-width:369px){
 
-    .line img {
+    .line img ,.contact-line img  {
         margin-left: 2rem;
     }
      .header {
@@ -598,6 +598,61 @@ footer h2 {
     .covered {
         margin-left: 3rem;
         flex-direction: column;
+    }
+     .mission,
+    .vision {
+        margin-left: 2.7rem;
+        height: 360px;
+    }
+    .mission-content, .vision-content {
+        padding-left: 2rem;}
+
+    .mission-line img, .vision-line img {
+        margin-left: 1rem;
+        width: 88%;}
+
+    .people h1 {
+        width: 100%;
+    }
+    .rectangle {
+        width: 80%;
+        height: 560px;
+        flex-direction: column;
+    }
+
+    .icon1,
+    .icon2 {
+        position: relative;
+        bottom: 0;
+        left: 0;
+
+    }
+
+    .icon3 {
+        position: relative;
+        bottom: 2rem;
+        left: 0rem;
+    }
+
+    .contact h1 {
+        width: 100%;
+    }
+
+    .contact-form {
+        width: 95%;
+    }
+
+    .contact h2 {
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    .term-and-condition {
+        flex-direction: column;
+        gap: 0;
     }
 }
 
