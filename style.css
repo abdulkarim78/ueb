@@ -7,6 +7,10 @@
     color: white;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     background-image: url("./assets/BG\ Nextpage.png");
     background-size: cover;
@@ -38,6 +42,14 @@ body {
     color: white;
 }
 
+a{
+    
+    text-decoration: none;
+}
+
+a:hover{
+    color: #deff2b;
+}
 /* Header Ended */
 
 
