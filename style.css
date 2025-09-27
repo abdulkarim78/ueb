@@ -542,7 +542,63 @@ footer h2 {
 }
 
 @media (min-width:320px) and (max-width:369px){
-    
+
+    .line img {
+        margin-left: 2rem;
+    }
+     .header {
+        gap: 2rem !important;
+    }
+
+    .logo {
+        width: 130px;
+    }
+
+     .menu ul {
+        font-size: 10px;
+        gap: 1rem;
+    }
+    .hero-content {
+        flex-direction: column-reverse;
+        margin-top: 2rem;
+    }
+
+    .hero-heading {
+        width: 344px;
+        margin-top: 3rem;
+    }
+
+    .hero-img img {
+        width: 250px;
+    }
+
+    .hero-btn {
+        margin-top: 2rem;
+        width: 100%;
+    }
+    .services>h1 {
+        width: 100%;
+    }
+
+    .services-card {
+        flex-direction: column !important;
+    }
+    .service1-parent ,.service2-parent, .service3-parent{
+        height: auto;
+        width: 230px;
+    }
+    .covered-content h1 {
+        width: 100%;
+    }
+
+    .covered-content h2 {
+        width: 100%;
+    }
+
+    .covered {
+        margin-left: 3rem;
+        flex-direction: column;
+    }
 }
 
 
