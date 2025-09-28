@@ -396,8 +396,8 @@ a:hover{
 
 .icon2 {
     position: relative;
-    bottom: 4rem;
-    left: 2.5rem;
+    bottom: 3rem;
+    left: 1.5rem;
 }
 
 .icon1 {
@@ -671,8 +671,6 @@ footer h2 {
         gap: 0;
     }
 }
-
-
 
 @media (min-width:370px) and (max-width:424px) {
     .line img {
@@ -950,7 +948,7 @@ footer h2 {
         gap: 0;
     }
 }
-
+/* 200px leverage */
 @media (min-width: 700px) and (max-width: 768px) {
     .header {
         gap: 5rem;
@@ -1082,8 +1080,7 @@ footer h2 {
         gap: 2rem;
     }
 }
-
-/* Desktop Screen 900 - 1024 */
+/* 132px leverage */
 @media (min-width: 900px) and (max-width: 1024px) {
     .header {
         display: flex;
@@ -1215,4 +1212,11 @@ footer h2 {
     }
 
 
+}
+
+@media (max-width:1440px){
+    .icon2 {
+    position: relative;
+    bottom: 3rem;
+    left: 2.5rem;}
 }
