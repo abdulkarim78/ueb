@@ -1214,7 +1214,7 @@ footer h2 {
 
 }
 
-@media (max-width:1440px){
+@media (min-width:1025px) and (max-width:1440px){
     .icon2 {
     position: relative;
     bottom: 3rem;
